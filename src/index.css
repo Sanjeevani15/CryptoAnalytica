@@ -3,3 +3,21 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.headlineColor {
+  background: linear-gradient(
+    90deg,
+    rgba(159, 154, 249, 1) 25%,
+    rgba(255, 228, 248, 1) 66%,
+    rgba(216, 223, 255, 1) 91%,
+    rgba(207, 191, 244, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: rgba(196, 206, 255, 0.5) 4px 0 10px;
+}
+
+.backgroundStarted {
+    background: linear-gradient(to right,#4568dc , #b06ab3);
+    border: 0.5px solid white;
+}
