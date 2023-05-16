@@ -6,6 +6,7 @@ const Navigation = () => {
     <nav className="w-[40%] mt-16 flex justify-around align-middle border border-cyan rounded-lg">
       <NavLink
         to="/"
+        id="crypto"
         end
         className={({ isActive }) => {
           return `w-full text-base rounded text-center font-nunito m-2.5 ${

@@ -46,7 +46,7 @@ const ParticleDesign = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 3,
               },
               repulse: {
                 distance: 150,
@@ -58,7 +58,7 @@ const ParticleDesign = () => {
                   opacity: 0.5
                 }
               }
-            },
+            },    
           },
           particles: {
             color: {
@@ -66,9 +66,9 @@ const ParticleDesign = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 120,
+              distance: 125,
               enable: true,
-              opacity: 0.6,
+              opacity: 0.7,
               width: 1,
             },
             collisions: {
@@ -90,6 +90,7 @@ const ParticleDesign = () => {
                 area: 1200,
               },
               value: 80,
+              max: 100
             },
             opacity: {
               value: 0.8,

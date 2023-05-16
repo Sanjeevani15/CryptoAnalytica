@@ -6,6 +6,9 @@ import { CryptoProvider } from "../context/CryptoContext";
 import { TrendingProvider } from "../context/TrendingContext";
 import { StorageProvider } from "../context/StorageContext";
 import Landing from "../components/Landing";
+import Footer from "../components/Footer";
+import WhyCrypto from "./Whycr";
+
 
 const Home = () => {
   return (
@@ -18,12 +21,9 @@ const Home = () => {
             <Landing />
             <Navigation />
             <Outlet />
+            <WhyCrypto />
           </main>
-          <div className="flex fixed bottom-0 justify-center w-full p-2 text-sm bg-[#091a35] text-white">
-            <span className="text-center">
-              &copy; 2023 CryptoAnalytica. All Rights Reserved.
-            </span>
-          </div>
+          <Footer />
         </StorageProvider>
       </TrendingProvider>
     </CryptoProvider>
